@@ -1,0 +1,96 @@
+$text-color: #323b3c;
+$main-color: #007cc2;
+$grey-color: #9b9b9b;
+$error-color: #f56c6c;
+.text-title {
+  color: $text-color;
+}
+
+.grey-color {
+  color: $grey-color;
+}
+
+.text-c-main {
+  color: $main-color;
+  font-size: 15px;
+  cursor: pointer;
+
+  :hover {
+    color: $main-color;
+    opacity: 0.8;
+  }
+}
+
+.color-main {
+  color: $main-color;
+}
+
+.sub-title {
+  color: $grey-color;
+  font-size: 12px;
+  margin: 0px 10px;
+}
+
+.divider-cus {
+  height: 0;
+  margin: 5px 0;
+  overflow: hidden;
+  border-top: 1px solid #dcdfe6;
+}
+
+.sized-box-10 {
+  height: 10px;
+}
+
+.sized-box-15 {
+  height: 15px;
+}
+
+.e-cl {
+  color: $text-color;
+}
+
+a, .link {
+  text-decoration: none;
+  color: $main-color;
+  transition: 0.3s ease-in;
+
+  :hover {
+    text-decoration: none;
+    color: $main-color !important;
+    opacity: 0.9;
+  }
+}
+
+a:hover {
+  text-decoration: none;
+  color: $main-color !important;
+}
+
+.border-bottom {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.img-post {
+  width: 100%;
+  overflow: hidden;
+  img {
+    width: 100%;
+    transition: transform 0.4s;
+  }
+}
+
+.img-post:hover img {
+  transform: scale(1.03);
+  transform-origin: 50% 50%;
+}
+
+
+.report-time span {
+  color: #8e8c8c;
+  font-size: 13px;
+}
+
+.el-header{
+  padding: 0;
+}

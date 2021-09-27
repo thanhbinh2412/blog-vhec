@@ -1,0 +1,27 @@
+.text-title {
+  color: #323b3c;
+}
+
+.grey-color {
+  color: #9b9b9b;
+}
+
+.divider-cus {
+  height: 0;
+  margin: 5px 0;
+  overflow: hidden;
+  border-top: 1px solid #dcdfe6;
+}
+
+.sized-box-10 {
+  height: 10px;
+}
+
+.sized-box-15 {
+  height: 15px;
+}
+
+.e-cl {
+  color: #f56c6c;
+}
+/*# sourceMappingURL=main.css.map */
